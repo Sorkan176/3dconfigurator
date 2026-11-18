@@ -1,0 +1,35 @@
+.layout {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    min-height: calc(100vh - 81px);
+    background: #17191e;
+}
+
+.viewer {
+    min-width: 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar {
+    padding: 26px 20px;
+    background: #1c1f25;
+    border-left: 1px solid #343840;
+}
+
+@media (max-width: 900px) {
+    .layout {
+        grid-template-columns: 1fr;
+    }
+
+    .viewer {
+        padding: 16px;
+    }
+
+    .sidebar {
+        border-left: none;
+        border-top: 1px solid #343840;
+    }
+}

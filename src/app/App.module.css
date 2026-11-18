@@ -1,0 +1,14 @@
+.app {
+  min-height: 100vh;
+  background: #17191e;
+  color: #f2f0eb;
+}
+
+.scene {
+  width: 100%;
+  max-width: 1100px;
+  overflow: hidden;
+  border: 1px solid #343840;
+  border-radius: 14px;
+  background: #252932;
+}

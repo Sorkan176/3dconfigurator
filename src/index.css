@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: Inter, Arial, sans-serif;
+  background: #17191e;
+  color: #f2f0eb;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}

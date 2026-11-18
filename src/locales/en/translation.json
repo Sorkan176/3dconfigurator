@@ -1,0 +1,40 @@
+{
+  "app": {
+    "title": "Panel Building Lamp",
+    "description": "Interactive 3D Configurator",
+    "language": "Language"
+  },
+  "controls": {
+    "title": "Lamp Settings",
+    "facadeColor": "Facade color",
+    "windowLights": "Window lighting",
+    "brightness": "Brightness",
+    "lightColor": "Light color",
+    "lightTemperature": {
+      "warm": "Warm (2700 K)",
+      "neutral": "Neutral (4000 K)",
+      "cold": "Cool (6000 K)",
+      "custom": "Custom color"
+    },
+    "description": "Customize the appearance and lighting",
+    "body": "Body",
+    "lighting": "Lighting"
+
+  },
+  "language": {
+    "label": "Language",
+    "ru": "Russian",
+    "en": "English"
+  },
+  "viewer": {
+    "title": "Lamp Preview",
+    "description": "Rotate the model and customize the building appearance in real time.",
+    "hints": {
+      "rotate": "Left click — rotate",
+      "zoom": "Scroll — zoom",
+      "pan": "Right click — pan"
+    },
+    "footer": "Interactive 3D scene · Changes are applied in real time",
+    "resetCamera": "Reset camera"
+  }
+}
