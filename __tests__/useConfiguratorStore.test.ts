@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from 'vitest';
-import { useConfiguratorStore } from '../src/store/useConfiguratorStore.ts';
+import { useConfiguratorStore } from '../src/store/useConfiguratorStore';
 
 
 describe('useConfiguratorStore — light color', () => {

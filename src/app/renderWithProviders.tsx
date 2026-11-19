@@ -2,7 +2,7 @@ import type {ReactElement} from 'react';
 import { render } from '@testing-library/react';
 import { I18nextProvider } from 'react-i18next';
 
-import i18n from '../src/locales';
+import i18n from '../locales';
 
 export function renderWithProviders(ui: ReactElement) {
     return render(

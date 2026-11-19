@@ -1,8 +1,8 @@
 import { describe, it, expect, beforeEach } from 'vitest';
 import { render } from '@testing-library/react';
 import { Canvas } from '@react-three/fiber';
-import { Window } from '../src/components/3dPanel/Window.tsx';
-import { useConfiguratorStore } from '../src/store/useConfiguratorStore.ts';
+import { Window } from '../src/components/3dPanel/Window';
+import { useConfiguratorStore } from '../src/store/useConfiguratorStore'
 
 
 describe('Window', () => {

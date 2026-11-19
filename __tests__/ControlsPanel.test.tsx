@@ -1,9 +1,9 @@
 import { describe, it, expect, beforeEach } from 'vitest';
 import { screen, fireEvent } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { ControlsPanel } from '../src/components/Panels/ControlsPanel.tsx';
-import { useConfiguratorStore } from '../src/store/useConfiguratorStore.ts';
-import { renderWithProviders } from './renderWithProviders.tsx';
+import { ControlsPanel } from '../src/components/Panels/ControlsPanel';
+import { useConfiguratorStore } from '../src/store/useConfiguratorStore';
+import { renderWithProviders } from '../src/app/renderWithProviders';
 
 
 describe('ControlsPanel', () => {
